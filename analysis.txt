@@ -1,1 +1,15 @@
+Histograms:
+
+Sepal Length shows a roughly normal distribution, with most flowers having sepal lengths between 5.0 and 6.5 cm.
+Sepal Width is somewhat skewed, with a concentration of values around 3.0 to 3.5 cm.
+Petal Length and Petal Width both display a bimodal distribution, suggesting the presence of distinct groups within the dataset (likely corresponding to the different species).
+Class confirms that there are three distinct species (Iris-setosa, Iris-versicolor, Iris-virginica), and the dataset contains an equal number of samples for each, which is 50.
+
+
+Scatter Plots (with 'sepallength' as the reference feature):
+
+When comparing sepal length with sepal width, there doesn't appear to be a strong linear correlation across the entire dataset. The data points are somewhat scattered, though some clusters might be present.
+There is a clear and strong positive linear correlation between sepal length and petal length. As sepal length increases, petal length tends to increase significantly. The distinct clusters observed in this plot further suggest differences between the iris species.
+Similarly, a strong positive linear correlation is visible between sepal length and petal width. As sepal length increases, petal width generally increases.
+The scatter plot of sepal length against class clearly shows that sepal length is a differentiating factor among the three iris species: Iris-setosa tends to have shorter sepal lengths, Iris-versicolor has medium sepal lengths, and Iris-virginica has longer sepal lengths.
 
